@@ -1,0 +1,122 @@
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: black;
+}
+
+* {
+    font-family: 'Young Serif', serif;
+}
+
+
+body {
+
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 540px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px hsl(30, 54%, 90%);
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+
+
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit", sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.preparation h3 {
+    font-weight: 700;
+}
+
+.preparation>ul>li>strong {
+    font-weight: 600;
+    color: black;
+}
+
+.preparation>ul>li {
+    font-weight: 400;
+}
+
+hr {
+    background-color: #E0E0E0;
+    height: 1.25px;
+    border: none;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.marker::marker {
+    color: hsl(332, 51%, 32%);
+
+}
+
+.marker2::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 0.7em;
+}
+
+.marker3::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 20px;
+
+}
+
+.table td {
+    border-bottom: 1.5px solid #E0E0E0;
+    padding: 14px 0;
+}
+
+.table .value1 {
+    padding-left: 30px;
+
+}
+
+.table .value {
+    color: hsl(14, 45%, 36%);
+}
+
+.table .special-td1 {
+    padding-left: 30px;
+    border-bottom: none;
+}
+
+.table .special-td2 {
+    color: hsl(14, 45%, 36%);
+    border-bottom: none;
+}
+
+.table tr td strong {
+    font-weight: 600;
+}
